@@ -17,7 +17,7 @@ tf.flags.DEFINE_boolean('load', False,
 tf.flags.DEFINE_string('model_file', None,
                        'If sepcified, load a pretrained model from this file')
 
-tf.flags.DEFINE_boolean('load_cnn', False,
+tf.flags.DEFINE_boolean('load_cnn', True,
                         'Turn on to load a pretrained CNN model')
 
 tf.flags.DEFINE_string('cnn_model_file', './vgg16_no_fc.npy',

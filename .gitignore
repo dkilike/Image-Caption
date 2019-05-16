@@ -1,0 +1,8 @@
+
+venv/
+.idea/
+__pycache__/
+summary/
+test/
+train/
+val/
